@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{29983657-46D0-4776-96CD-4D894D802079}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Products.Api", "Products.Api", "{5F9386C7-8161-466E-A2B3-BCA6A1F167FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Products.Api", "src\Products.Api\Products.Api\Products.Api.csproj", "{690D7E7E-40A2-439A-9D54-B7B667EA95A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Products.Tests", "Products.Tests", "{38954F05-25A0-4ACB-9A3F-7C368616D782}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Products.Tests", "src\Products.Tests\Products.Tests\Products.Tests.csproj", "{DCBCBBE4-648A-4D6E-9967-E55AE9A2CDF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{690D7E7E-40A2-439A-9D54-B7B667EA95A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{690D7E7E-40A2-439A-9D54-B7B667EA95A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{690D7E7E-40A2-439A-9D54-B7B667EA95A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{690D7E7E-40A2-439A-9D54-B7B667EA95A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCBCBBE4-648A-4D6E-9967-E55AE9A2CDF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCBCBBE4-648A-4D6E-9967-E55AE9A2CDF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCBCBBE4-648A-4D6E-9967-E55AE9A2CDF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCBCBBE4-648A-4D6E-9967-E55AE9A2CDF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F9386C7-8161-466E-A2B3-BCA6A1F167FE} = {29983657-46D0-4776-96CD-4D894D802079}
+		{690D7E7E-40A2-439A-9D54-B7B667EA95A6} = {5F9386C7-8161-466E-A2B3-BCA6A1F167FE}
+		{38954F05-25A0-4ACB-9A3F-7C368616D782} = {29983657-46D0-4776-96CD-4D894D802079}
+		{DCBCBBE4-648A-4D6E-9967-E55AE9A2CDF6} = {38954F05-25A0-4ACB-9A3F-7C368616D782}
+	EndGlobalSection
+EndGlobal
